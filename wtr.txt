@@ -1,0 +1,67 @@
+
+Introduction ----------------------------------------------------------
+- about RC-Reporter
+- why do automated tests
+- the state it was in when I got here
+- 
+
+Discussion ------------------------------------------------------------
+
+Overview
+- What software RCR was developed with
+- RCR software stach
+- Why this affect the automated tests
+- Automated testing framework and software stach
+- architecture and environment that the tests use
+- tooling
+
+Programming The Tests
+- C#
+- Powershell
+- Javascript
+- HTML
+- Selenium
+- SeleniumGridExtras
+- NUnit
+- Visual Studios
+- Compiling and Running
+- PageObjects
+- TestObjects
+- Test setup
+- program execution and flow
+- Mapfiles
+- By.*
+- CSS Selectors
+- XPath
+- Problems faced and their solutions if any
+
+Architecture
+- Nodes and Hubs
+- Using GridExtras
+- debugging Grid problems
+- advantages/disadvantages
+- Problems faced and their solutions if any
+
+Reporter-Test
+- Putting it all together
+- moving from developer testing to remote testing
+- blurb about automation
+- Scheduling tests
+- sending emails
+- Deploying tests to server from tfserver
+- running tests in an automated way
+- Problems faced and their solutions if any
+
+Current State of Project
+- Emails everyday
+- Bug catching
+- coverage
+- planned future work
+
+Conclusion ------------------------------------------------------------
+
+- Where the project stands now
+
+Recommendations -------------------------------------------------------
+
+- Recommend more tests be written 
