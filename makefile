@@ -1,8 +1,8 @@
-FILE=philass
+FILE=report
 all: $(FILE).pdf
 
 $(FILE).pdf: $(FILE).tex
-	latex $(FILE); bibtex $(FILE); latex $(FILE); pdflatex $(FILE)
+	latex $(FILE); bibtex references; latex $(FILE); pdflatex $(FILE)
 clean:
 	rm $(FILE).{aux,blg,bbl,log,dvi,pdf}
 open:
